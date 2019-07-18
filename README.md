@@ -3,6 +3,9 @@
 [![NPM](https://nodei.co/npm/qrcode.vue.png?downloads=true&stars=true)](https://nodei.co/npm/qrcode.vue/)  
 > qrcode.vue  A Vue.js component for QRCode.
 
+[![NPM](https://nodei.co/npm/gh-pages.png?downloads=true&stars=true)](https://nodei.co/npm/gh-pages/)  
+> Publish files to a gh-pages branch on GitHub (or any other branch anywhere else).
+
 ? Please pick a preset: Manually select features
 ? Check the features needed for your project: Babel, Router, Vuex, Linter
 ? Use history mode for router? (Requires proper server setup for index fallback in production) Yes
