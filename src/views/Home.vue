@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    pass props function fromChildId: {{fromChildId}}
+    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
+    <HelloWorld msg="Welcome to Your Vue.js App" :cb="parentFn" />
   </div>
 </template>
 
@@ -13,6 +14,16 @@ export default {
   name: 'home',
   components: {
     HelloWorld
+  },
+  data() {
+    return {
+      fromChildId: 0
+    }
+  },
+  methods: {
+    parentFn(id) {
+     this.fromChildId = id
+    }
   }
 }
 </script>

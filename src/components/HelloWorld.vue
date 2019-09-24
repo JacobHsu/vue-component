@@ -34,7 +34,14 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String,
+    cb: {
+      type: Function
+    }
+  },
+  created() {
+    const newVal = 5;
+    this.cb(newVal)
   }
 }
 </script>
